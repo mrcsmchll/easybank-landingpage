@@ -63,6 +63,6 @@ button, .button {
   color: hsl(223deg, 8%, 62%);
 }
 .header__cta {
-  font-size: 400;
+  font-size: 0.875rem;
   color: hsl(0deg, 0%, 100%);
 }/*# sourceMappingURL=style.css.map */
