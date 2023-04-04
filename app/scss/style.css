@@ -37,7 +37,7 @@ a, a:visited, a:hover {
 }
 
 button, .button {
-  padding: 1rem 1.875rem;
+  padding: 0.875rem 2.1875rem;
   background: linear-gradient(to left, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   border: 0;
   border-radius: 50px;
@@ -59,7 +59,11 @@ button, .button {
 }
 
 .header nav {
-  padding: 24px;
+  padding: 1.0625rem 1.5rem;
+}
+.header__logo img {
+  width: 8.8125rem;
+  height: 1.375rem;
 }
 .header__hamburger > span {
   display: block;
@@ -71,8 +75,26 @@ button, .button {
   margin-bottom: 3px;
 }
 .header__links a {
+  position: relative;
   font-size: 0.875rem;
   color: hsl(223deg, 8%, 62%);
+  transition: color 200ms ease-in-out;
+}
+.header__links a:not(:last-child) {
+  margin-right: 32px;
+}
+.header__links a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  background: lime;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+}
+.header__links a:hover {
+  color: hsl(233deg, 26%, 24%);
 }
 .header__cta {
   font-size: 0.875rem;
