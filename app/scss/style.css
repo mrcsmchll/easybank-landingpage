@@ -70,9 +70,20 @@ button, .button {
   width: 26px;
   height: 2px;
   background-color: hsl(233deg, 26%, 24%);
+  transition: all 200ms ease-in-out;
+  transform-origin: 3px 1px;
 }
 .header__hamburger > span:not(:last-child) {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+}
+.header__hamburger.open > span:first-child {
+  transform: rotate(45deg);
+}
+.header__hamburger.open > span:nth-child(2) {
+  opacity: 0;
+}
+.header__hamburger.open > span:last-child {
+  transform: rotate(-45deg);
 }
 .header__links a {
   position: relative;
