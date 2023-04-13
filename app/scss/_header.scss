@@ -27,6 +27,7 @@
         right: 0px;
         left: 0px;
         background-image: linear-gradient($darkBlue, transparent);
+        pointer-events: none;
     }
 
     nav {
@@ -50,14 +51,23 @@
             background-color: $darkBlue;
             transition: all 200ms ease-in-out;
             transform-origin: 3px 1px;
-
+            
             &:not(:last-child) {
                 margin-bottom: 5px;
             }
         }
-
+        
     }
 
+    .menu__links {
+        background: $white;
+        padding: 1.625rem;
+        
+        a {
+            color: $darkBlue;
+        }
+    }
+    
     &__links {
         a {
             position: relative;
@@ -81,18 +91,18 @@
                 opacity: 0;
                 transition: opacity 300ms ease-in-out;
             }
-
+            
             &:hover {
                 color: $darkBlue;
-
+                
                 &::after {
                     opacity: 1;
                 }
             }
         }
-
+        
     }
-
+    
     &__cta {
         font-size: $font-sm;
         color: $white;
@@ -102,4 +112,14 @@
             opacity: 0.75;
         }
     }
+
+
+
+
+
+
+
+
+
+
 }
