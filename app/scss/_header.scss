@@ -31,7 +31,8 @@
     }
 
     nav {
-        padding: 1.0625rem 1.5rem;
+        padding-top: 1.0625rem;
+        padding-bottom: 1.0625rem;
     }
 
     &__logo {
@@ -62,9 +63,12 @@
     .menu__links {
         background: $white;
         padding: 1.625rem;
-        
+
         a {
+            display: block;
+            padding: 0.625rem;
             color: $darkBlue;
+            text-align: center;
         }
     }
     
