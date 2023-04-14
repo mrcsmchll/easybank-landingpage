@@ -166,11 +166,13 @@ button,
 .header__hamburger > span:not(:last-child) {
   margin-bottom: 5px;
 }
-.header .menu__links {
+.header .hamburger__menu {
   background: hsl(0deg, 0%, 100%);
   padding: 1.625rem;
+  margin: 0px 1.5rem;
+  border-radius: 3px;
 }
-.header .menu__links a {
+.header .hamburger__menu a {
   display: block;
   padding: 0.625rem;
   color: hsl(233deg, 26%, 24%);
