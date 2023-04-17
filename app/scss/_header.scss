@@ -27,7 +27,8 @@
         right: 0px;
         left: 0px;
         background-image: linear-gradient($darkBlue, transparent);
-        pointer-events: none;
+        
+        
     }
 
     nav {
@@ -61,10 +62,14 @@
     }
 
     .hamburger__menu {
+        position: absolute;
+        width: calc(100% - 3rem);
+        left: 50%;
+        transform: translateX(-50%);
         background: $white;
+        margin-top: 1.5rem ;
         padding: 1.625rem;
-        margin: 0px 1.5rem;
-        border-radius: 3px;
+        border-radius: 5px;
 
         a {
             display: block;
