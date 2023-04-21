@@ -5,11 +5,11 @@
 
 //at this point & bigger use the following styles
 //640px, 1024px, 1400px
-$breakpoints-up: ("medium": "40em", "large": "64em", "xlarge":"87.5em");
+$breakpoints-up: ("medium": "45em", "large": "64em", "xlarge":"87.5em");
 
 //at this point & smaller use the following styles
-//639px, 1023px, 1399px
-$breakpoints-down: ("small":"39.9375em", "medium": "63.9375em", "large": "87.4375em");
+//719px, 1023px, 1399px
+$breakpoints-down: ("small":"44.9375em", "medium": "63.9375em", "large": "87.4375em");
 
 @mixin breakpoint-up($size) {
     @media(min-width: map-get($breakpoints-up, $size)){
