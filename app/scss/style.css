@@ -230,7 +230,7 @@ button:hover,
   height: 5px;
   left: 0;
   right: 0;
-  bottom: -30px;
+  bottom: -30.5px;
   background: linear-gradient(to left, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   opacity: 0;
   transition: opacity 300ms ease-in-out;
