@@ -171,7 +171,7 @@ button:hover,
 .header .overlay {
   opacity: 0;
   position: fixed;
-  top: 4rem;
+  top: 3.5rem;
   bottom: 0px;
   right: 0px;
   left: 0px;
