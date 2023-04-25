@@ -1,8 +1,8 @@
 const body = document.querySelector("body")
 const btnHamburger = document.querySelector("#btnHamburger");
 const header = document.querySelector(".header");
-const overlay = document.querySelector(".overlay")
-const fadeElements = document.querySelectorAll(".has-fade")
+// const overlay = document.querySelector(".overlay")
+const fadeElements = document.querySelectorAll(".has-fade");
 
 btnHamburger.addEventListener("click", _ => {
 
