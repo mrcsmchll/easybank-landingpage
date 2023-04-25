@@ -1,10 +1,13 @@
 .hero {
     background-color: $veryLightGray;
 
-    //for desktop view
-    @include breakpoint-up (medium) {
-        display: flex;
-        align-items: center;
+    .container {
+
+        //for desktop view
+        @include breakpoint-up (medium) {
+            display: flex;
+            align-items: center;
+        }
     }
 
     &__image {
@@ -22,7 +25,7 @@
             height: 41rem;
             background-image: url("/images/bg-intro-desktop.svg");
             background-position: left center;
-            
+
 
         }
 
@@ -36,13 +39,13 @@
             background-size: 90%;
             background-position: center bottom 10%;
             background-repeat: no-repeat;
-      
+
         }
     }
 
     &__text {
         text-align: center;
-        
+
         //for desktop view
         @include breakpoint-up (medium) {
             flex: 2;
@@ -56,7 +59,7 @@
             line-height: 1.15;
             color: $darkBlue;
             margin-bottom: 1.5rem;
-            
+
             @include breakpoint-up (medium) {
                 font-size: $font-xlg;
             }
@@ -65,11 +68,11 @@
         p {
             line-height: 1.5;
             margin-bottom: 2.25rem;
-           
+
             @include breakpoint-up (medium) {
                 font-size: $font-lg;
             }
-            
+
         }
 
     }
