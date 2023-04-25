@@ -1,4 +1,8 @@
 .hero {
+    @include breakpoint-up (large) {
+        display: flex;
+        align-items: center;
+    }
 
     &__image {
         position: relative;
@@ -7,6 +11,14 @@
         background-position: center center;
         background-repeat: no-repeat;
         min-height: 17.5rem;
+
+        @include breakpoint-up (large) {
+            flex: 1;
+            order: 2;
+            min-height: 41rem;
+
+        }
+
 
         &::before {
             content: "";
@@ -17,7 +29,7 @@
             background-size: 90%;
             background-position: center bottom 10%;
             background-repeat: no-repeat;
-
+      
         }
     }
 
@@ -35,6 +47,11 @@
         p {
             line-height: 1.5;
             margin-bottom: 2.25rem;
+        }
+
+        @include breakpoint-up (large) {
+            flex: 1;
+            order: 1;
         }
 
     }

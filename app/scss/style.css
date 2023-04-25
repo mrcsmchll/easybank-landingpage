@@ -242,6 +242,12 @@ button:hover,
   opacity: 1;
 }
 
+@media (min-width: 64em) {
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+}
 .hero__image {
   position: relative;
   background-image: url("/images/bg-intro-mobile.svg");
@@ -249,6 +255,13 @@ button:hover,
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 17.5rem;
+}
+@media (min-width: 64em) {
+  .hero__image {
+    flex: 1;
+    order: 2;
+    min-height: 41rem;
+  }
 }
 .hero__image::before {
   content: "";
@@ -273,4 +286,10 @@ button:hover,
 .hero__text p {
   line-height: 1.5;
   margin-bottom: 2.25rem;
+}
+@media (min-width: 64em) {
+  .hero__text {
+    flex: 1;
+    order: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
