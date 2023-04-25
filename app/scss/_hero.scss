@@ -15,8 +15,7 @@
         @include breakpoint-up (large) {
             flex: 1;
             order: 2;
-            min-height: 41rem;
-
+            height: 41rem;
         }
 
 
