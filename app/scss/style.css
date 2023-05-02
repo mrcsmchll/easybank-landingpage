@@ -390,6 +390,14 @@ button:hover,
 .features {
   background-color: hsl(220deg, 16%, 96%);
 }
+.features__intro {
+  margin-bottom: 3.75rem;
+}
+@media (min-width: 64em) {
+  .features__intro {
+    width: 60%;
+  }
+}
 @media (min-width: 45em) {
   .features__grid {
     display: flex;
@@ -407,5 +415,13 @@ button:hover,
 @media (min-width: 64em) {
   .features__item {
     flex: 1;
+  }
+}
+.features__icon {
+  margin-bottom: 1.875rem;
+}
+@media (min-width: 64em) {
+  .features__icon {
+    margin-bottom: 2.75rem;
   }
 }/*# sourceMappingURL=style.css.map */

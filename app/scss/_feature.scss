@@ -1,5 +1,13 @@
 .features {
     background-color: $lightGrayishBlue;
+    
+    &__intro {
+        margin-bottom: 3.75rem;
+
+        @include breakpoint-up (large) {
+            width: 60%;
+        }
+    }
 
     &__grid {
         @include breakpoint-up (medium) {
@@ -23,8 +31,14 @@
     }
 
     &__icon {
-        
+        margin-bottom: 1.875rem;
+
+        @include breakpoint-up (large) {
+            margin-bottom: 2.75rem;
+        }
     }
+
+
 
 
 
