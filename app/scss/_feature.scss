@@ -1,6 +1,6 @@
 .features {
     background-color: $lightGrayishBlue;
-    
+
     &__intro {
         margin-bottom: 3.75rem;
 
@@ -15,15 +15,16 @@
             flex-wrap: wrap;
         }
 
-        
+
     }
 
     &__item {
         padding: 0.9375rem;
-      
+
         @include breakpoint-up (medium) {
             flex: 0 0 50%;
         }
+
         @include breakpoint-up (large) {
             flex: 1;
         }
@@ -33,9 +34,27 @@
     &__icon {
         margin-bottom: 1.875rem;
 
+        // @include breakpoint-up (large) {
+        //     margin-bottom: 2.75rem;
+        // }
+    }
+
+    &__title {
+        font-size: $font-lg;
+        font-weight: 300;
+        line-height: 1.15;
+        color: $darkBlue;
+        margin-bottom: 1.5rem;
+
         @include breakpoint-up (large) {
-            margin-bottom: 2.75rem;
+            font-size: 1.5rem;
+            margin-bottom: 2.125rem;
         }
+    }
+
+    &__description {
+        font-size: $font-sm;
+        line-height: 1.5;
     }
 
 

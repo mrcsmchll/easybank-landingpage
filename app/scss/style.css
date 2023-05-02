@@ -104,14 +104,14 @@ body.no-scroll {
 h1,
 h2,
 h3 {
-  margin-top: 0px;
   font-weight: 300;
-  font-size: 2.31rem;
   line-height: 1.15;
   color: hsl(233deg, 26%, 24%);
+  margin-top: 0px;
 }
 
 h1 {
+  font-size: 2.31rem;
   margin-bottom: 1.5rem;
 }
 @media (min-width: 64em) {
@@ -147,24 +147,46 @@ a:hover {
   margin: 0 auto;
 }
 .container--pall {
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+@media (min-width: 64em) {
+  .container--pall {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
 .container--py {
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container--py {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 .container--px {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
 .container--pt {
-  padding-top: 2.25rem;
+  padding-top: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container--pt {
+    padding-top: 6rem;
+  }
 }
 .container--pb {
-  padding-bottom: 2.25rem;
+  padding-bottom: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container--pb {
+    padding-bottom: 6rem;
+  }
 }
 .container--pr {
   padding-right: 1.5rem;
@@ -420,8 +442,20 @@ button:hover,
 .features__icon {
   margin-bottom: 1.875rem;
 }
+.features__title {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.15;
+  color: hsl(233deg, 26%, 24%);
+  margin-bottom: 1.5rem;
+}
 @media (min-width: 64em) {
-  .features__icon {
-    margin-bottom: 2.75rem;
+  .features__title {
+    font-size: 1.5rem;
+    margin-bottom: 2.125rem;
   }
+}
+.features__description {
+  font-size: 0.875rem;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */
