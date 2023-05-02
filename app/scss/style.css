@@ -372,4 +372,13 @@ button:hover,
   .hero__text p {
     font-size: 1.25rem;
   }
+}
+
+.features {
+  background-color: hsl(220deg, 16%, 96%);
+}
+@media (min-width: 64em) {
+  .features__grid {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */

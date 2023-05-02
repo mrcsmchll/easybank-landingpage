@@ -1,0 +1,14 @@
+.features {
+    background-color: $lightGrayishBlue;
+    &__grid {
+        @include breakpoint-up (large) {
+            display: flex;
+           
+        }
+    }
+
+
+    
+
+
+}
