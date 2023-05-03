@@ -470,9 +470,19 @@ button:hover,
   background-color: hsl(0deg, 0%, 98%);
 }
 
+.article__intro {
+  margin-bottom: 3.75rem;
+  text-align: center;
+}
+@media (min-width: 45em) {
+  .article__intro {
+    text-align: left;
+  }
+}
 .article__grid {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 1.875rem;
 }
 @media (min-width: 45em) {
   .article__grid {
@@ -483,6 +493,10 @@ button:hover,
   .article__grid {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+.article__item {
+  padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+  background-color: hsl(0deg, 0%, 100%);
 }
 .article__image {
   height: 12.5rem;
