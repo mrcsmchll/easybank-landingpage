@@ -473,14 +473,5 @@ button:hover,
 .article__grid {
   display: grid;
   grid-template-columns: 1fr;
-}
-@media (min-width: 45em) {
-  .article__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 64em) {
-  .article__grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  grid-template-columns: repeat(auto-fit, minmax(14.375rem, 1fr));
 }/*# sourceMappingURL=style.css.map */
