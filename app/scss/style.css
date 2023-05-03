@@ -464,4 +464,8 @@ button:hover,
 .features__description {
   font-size: 0.875rem;
   line-height: 1.5;
+}
+
+.articles {
+  background-color: hsl(0deg, 0%, 98%);
 }/*# sourceMappingURL=style.css.map */
