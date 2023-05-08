@@ -22,6 +22,7 @@ body {
     font-weight: 40;
     color: $grayishBlue;
     line-height: 1.3; //allows spacing between lines
+    overflow-x: hidden;
 
     @include breakpoint-up (medium) {
         font-size: $font-med;
