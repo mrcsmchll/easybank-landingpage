@@ -506,6 +506,7 @@ button:hover,
 }
 .article__text {
   padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+  color: hsl(223deg, 8%, 62%);
 }
 @media (min-width: 45em) {
   .article__text {
@@ -513,5 +514,15 @@ button:hover,
   }
 }
 .article__author {
-  font-size: 10px;
+  font-size: 0.625rem;
+  margin-bottom: 0.75rem;
+}
+.article__title {
+  font-size: 1.0625rem;
+  line-height: 1.12;
+  margin-bottom: 0.5rem;
+  color: hsl(233deg, 26%, 24%);
+}
+.article__description {
+  font-size: 0.8125rem;
 }/*# sourceMappingURL=style.css.map */
