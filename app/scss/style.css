@@ -531,4 +531,11 @@ button:hover,
 }
 .article__description {
   font-size: 0.8125rem;
+}
+
+.footer {
+  background-color: hsl(233deg, 26%, 24%);
+}
+.footer__links a {
+  color: hsl(223deg, 8%, 62%);
 }/*# sourceMappingURL=style.css.map */
