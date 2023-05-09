@@ -1,8 +1,11 @@
 const body = document.querySelector("body")
 const btnHamburger = document.querySelector("#btnHamburger");
 const header = document.querySelector(".header");
-// const overlay = document.querySelector(".overlay")
 const fadeElements = document.querySelectorAll(".has-fade");
+
+//TODO: Remove Auto Scroll
+console.warn("Auto scroll to bottom for dev ON")
+window.scrollTo(0, document.body.scrollHeight);
 
 btnHamburger.addEventListener("click", _ => {
 
