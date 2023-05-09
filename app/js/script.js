@@ -3,10 +3,6 @@ const btnHamburger = document.querySelector("#btnHamburger");
 const header = document.querySelector(".header");
 const fadeElements = document.querySelectorAll(".has-fade");
 
-//TODO: Remove Auto Scroll
-console.warn("Auto scroll to bottom for dev ON")
-window.scrollTo(0, document.body.scrollHeight);
-
 btnHamburger.addEventListener("click", _ => {
 
     if (!header.classList.contains("open")) {//when open ham-menu

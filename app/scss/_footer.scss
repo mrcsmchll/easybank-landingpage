@@ -2,55 +2,95 @@
     background-color: $darkBlue;
     padding: 2.5rem;
     text-align: center;
-    
+
+    @include breakpoint-up (large) {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr), 2fr;
+        grid-template-areas:
+            "logo links1 links2 cta"
+            "social links1 links2 cta";
+    }
+
     &__logo {
+        margin-top: 1rem;
         margin-bottom: 1.1875rem;
         display: inline-block;
+
+        @include breakpoint-up (large) {
+            grid-area: logo;
+        }
     }
-    
+
     &__social {
+        margin-top: 1rem;
         margin-bottom: 1.1875rem;
+
         a {
             display: inline-block;
         }
+
         a:not(:last-child) {
             margin-right: 1rem;
         }
+
+        @include breakpoint-up (large) {
+            grid-area: social;
+        }
     }
-    
+
     &__links {
         display: flex;
         flex-direction: column;
         align-items: center;
         line-height: 2.25;
         
-        a{
+        @include breakpoint-up (large) {
+            align-items: start;
+        }
+        
+        a {
             color: $white;
-            
         }
-        
+
         &.col1 {
-            
+
+            @include breakpoint-up (large) {
+                grid-area: links1;
+                
+            }
+
         }
-        
-        &.col2{
+
+        &.col2 {
             margin-bottom: 1.1875rem;
 
+            @include breakpoint-up (large) {
+                grid-area: links2;
+            }
         }
 
     }
 
     &__cta {
         a.button {
+            margin-top: 1rem;
             margin-bottom: 1.1875rem;
 
         }
-
+        
+        
+        @include breakpoint-up (large) {
+            grid-area: cta;
+            align-items: end;
+            text-align: right;
+        }
     }
     
-    &__copyright{
-        margin-bottom: 1.1875rem;
+    &__copyright {
+            margin-top: 1.1875rem;
+            margin-bottom: 1.1875rem;
+        
     }
-
 
 }

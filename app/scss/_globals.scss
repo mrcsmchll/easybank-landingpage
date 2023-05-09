@@ -34,6 +34,16 @@ body {
 
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    background-color: $darkBlue;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 //Text
 h1,
 h2,
