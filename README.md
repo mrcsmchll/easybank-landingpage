@@ -7,4 +7,4 @@
 
 > ## Notes:
 > - Styles developed with a mobile first pov with media queries for desktop styles.
-> - Mainly SCSS, flexbox & css grid. Some light js for the mobile header menu
+> - Mostly SCSS, flexbox & css grid. Some light js for the mobile header menu
