@@ -1,10 +1,11 @@
-# DELETE b4 PubEye
+# Landing Page FrontEnd Challenge
 
-# [Project guide from freecodecamp.org:]
- (https://www.youtube.com/watch?app=desktop&v=aoQ6S1a32j8)
+---
 
- # [Challenge template & source files:]
- (https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+> ## [Project guide from freecodecamp.org:](https://www.youtube.com/watch?app=desktop&v=aoQ6S1a32j8)
+>
+> ## [Challenge template & source files:](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
 
-# Notes:
-    - mobile ver without media queries for the styles
+> ## Notes:
+> - Styles developed with a mobile first pov with media queries for desktop styles.
+> - Mainly SCSS, flexbox & css grid. Some light js for the mobile header menu
